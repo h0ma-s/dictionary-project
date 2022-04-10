@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Results(props) {
-  console.log(props.results);
   if (props.results) {
     return (
       <div className="Results">
@@ -17,7 +16,7 @@ export default function Results(props) {
                   return (
                     <div key={index}>
                       <h4>{meaning.partOfSpeech}</h4>
-                      <p>
+                      <div>
                         {meaning.definitions.map(function (definition, index) {
                           return (
                             <div key={index}>
@@ -28,7 +27,7 @@ export default function Results(props) {
                             </div>
                           );
                         })}
-                      </p>
+                      </div>
                     </div>
                   );
                 })}
