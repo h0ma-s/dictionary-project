@@ -5,8 +5,8 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1 className="text-center"> Dictionary App </h1>
-        <Dictionary />
+        <h1 className="text-center"> Learn It! </h1>
+        <Dictionary defaultWord="welcome" />
         <footer className="text-center text-muted mt-4">
           Coded by Homa Sharifmousavi and{" "}
           <a
