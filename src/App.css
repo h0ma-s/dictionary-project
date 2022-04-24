@@ -9,3 +9,11 @@
   background: white;
   max-width: 85%;
 }
+.App footer {
+  color: white;
+}
+.App footer a {
+  color: #ff6f3c;
+  font-style: italic;
+  text-decoration: none;
+}

@@ -1,0 +1,10 @@
+.Meaning .number {
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.Meaning .example {
+  font-size: 13px;
+  margin-left: 15px;
+  color: #155263bd;
+}

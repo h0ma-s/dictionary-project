@@ -1,0 +1,17 @@
+.Phonetics .audio {
+  color: white;
+  font-weight: 600;
+  background-color: #ff6f3c;
+  font-size: 14px;
+  border-radius: 20px;
+  margin-left: 10px;
+  transition: all 150ms ease-in-out;
+}
+.Phonetics .audio:hover {
+  background-color: white;
+  color: #ff6f3c;
+  border: 1px solid #ff6f3c;
+}
+.Phonetics .phonetic {
+  margin-bottom: 10px;
+}

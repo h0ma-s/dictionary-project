@@ -1,6 +1,7 @@
 import React from "react";
 import Meaning from "./Meaning";
 import Phonetics from "./Phonetics";
+import "./Results.css";
 
 export default function Results(props) {
   if (props.results) {
@@ -11,7 +12,8 @@ export default function Results(props) {
             <div key={index}>
               <section>
                 <h3>
-                  {index + 1}. {result.word}
+                  {result.word}
+                  <span className="index">{index + 1}</span>
                 </h3>
                 <Phonetics phonetics={result.phonetics} />
               </section>

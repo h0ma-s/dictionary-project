@@ -7,7 +7,7 @@ export default function App() {
       <div className="container">
         <h1 className="text-center"> Learn It! </h1>
         <Dictionary defaultWord="welcome" />
-        <footer className="text-center text-muted mt-4">
+        <footer className="text-center  mt-4 mb-4">
           Coded by Homa Sharifmousavi and{" "}
           <a
             href="https://github.com/h0ma-s/dictionary-project"
