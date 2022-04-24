@@ -32,11 +32,11 @@ export default function Dictionary(props) {
   function search() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
     axios.get(apiUrl).then(handleResponse);
+    searchPexels();
   }
   function handleSubmit(event) {
     event.preventDefault();
     search();
-    searchPexels();
   }
   function handleChange(event) {
     setWord(event.target.value);
@@ -44,7 +44,7 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <section>
+        <section className="pb-5">
           <h2 className="text-center">
             Which word do you want to learn today?
           </h2>
@@ -64,7 +64,7 @@ export default function Dictionary(props) {
   } else {
     search();
     return (
-      <section>
+      <section className="pb-5">
         <h2 className="text-center">Which word do you want to learn today?</h2>
         <form className="text-center" onSubmit={handleSubmit}>
           <input type="search" onChange={handleChange}></input>

@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1 className="text-center"> Learn It! </h1>
-        <Dictionary defaultWord="welcome" />
+        <Dictionary defaultWord="learn" />
         <footer className="text-center  mt-4 mb-4">
           Coded by Homa Sharifmousavi and{" "}
           <a

@@ -1,6 +1,11 @@
+.Meaning .definition {
+  color: rrgba(0, 0, 0, 0.703);
+}
+
 .Meaning .number {
   font-size: 12px;
   font-weight: bold;
+  color: black;
   margin-right: 10px;
 }
 .Meaning .example {
